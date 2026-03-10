@@ -1,9 +1,9 @@
-import FeaturedProductsHead from "./featuredProductsHead";
+import FeaturedProductsHead from "./FeaturedProductsHead";
 
 export default function FeaturedProducts() {
-    return (
-        <div>
-            <FeaturedProductsHead />
-        </div>
-    )
+  return (
+    <div>
+        <FeaturedProductsHead />
+    </div>
+  );
 }
