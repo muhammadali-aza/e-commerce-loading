@@ -1,5 +1,6 @@
 import { LiaSignalSolid } from "react-icons/lia";
 import { HiOutlineShoppingCart } from "react-icons/hi";
+import BuyTempleteBtn from "./BuyTempleteBtn";
 
 export default function NavBar() {
   return (
@@ -30,9 +31,7 @@ export default function NavBar() {
               <HiOutlineShoppingCart className="text-[22px] hover:text-[#416BCD]"/>
             </a>
 
-            <button className="hidden sm:block cursor-pointer bg-[#416BCD] text-white py-2 px-4 rounded-lg font-[500] hover:bg-[#3355A0]">
-              Buy Template
-            </button>
+           <BuyTempleteBtn text="Buy Template"/>
           </div>
 
         </nav>
